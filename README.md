@@ -12,9 +12,9 @@ This repository contains an implementation of a text-to-speech (TTS) model using
 
 Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Using SpeechT5:
 
-Task 1 Pre-trained Model Audio using Coqui TTS: https://github.com/user-attachments/assets/2ad57d3f-ba5c-4b6f-9ac9-1d54904d2d57
+-Task 1 Pre-trained Model Audio using Coqui TTS: https://github.com/user-attachments/assets/2ad57d3f-ba5c-4b6f-9ac9-1d54904d2d57
 
-Task 1 Fine-tuned Model Audio Sample using SpeechT5: https://github.com/user-attachments/assets/b63f9f41-9714-4634-9786-c11c2a55aa92
+-Task 1 Fine-tuned Model Audio Sample using SpeechT5: https://github.com/user-attachments/assets/b63f9f41-9714-4634-9786-c11c2a55aa92
 
 
 
