@@ -46,7 +46,7 @@ This project fine-tunes a text-to-speech (TTS) model using SpeechT5, focusing on
   - `soundfile`
   - `sentencepiece`
 
-## 🤗 Install
+##Install
 
 You can run SpeechT5 TTS locally with the 🤗 Transformers library.
 
