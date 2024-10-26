@@ -46,7 +46,7 @@ This project fine-tunes a text-to-speech (TTS) model using SpeechT5, focusing on
   - `soundfile`
   - `sentencepiece`
 
-##Install
+## Install
 
 You can run SpeechT5 TTS locally with the 🤗 Transformers library.
 
@@ -99,7 +99,7 @@ speech = model.generate_speech(inputs["input_ids"], speaker_embeddings, vocoder=
 sf.write("speech.wav", speech.numpy(), samplerate=16000)
 ```
 
-<h2><a href="">Dataset Preparation</a></h2>
+## Dataset Preparation
 
 • Dataset Description: A dataset was created that includes both general English
 sentences and technical jargon. Technical terms included "API," "CUDA," "TTS,"
