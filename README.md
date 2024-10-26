@@ -116,5 +116,18 @@ o Sentences pulled from technical blogs and articles.
 
 • Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
 balance between technical and conversational language.
+
+![screenshot 22](https://github.com/user-attachments/assets/a115891a-8064-44c9-9c05-23042d1a93f4)
+
+![results](https://github.com/user-attachments/assets/96894b15-05b7-489d-8af8-6751d7db572a)
+
+![Comparssion summary](https://github.com/user-attachments/assets/7a7030e4-578d-4a68-ae3d-6c860240be36)
+
+![appendix](https://github.com/user-attachments/assets/5f9819e3-5ac1-476f-8ac8-a5a488f0e7a2)
+
+![Challenges](https://github.com/user-attachments/assets/a8d880dc-3271-4bc5-8e44-fc2268e9f7d9)
+
+![terms sample](https://github.com/user-attachments/assets/bd6c0a48-86c5-4c4b-96bd-24b07b300299)
+
  
 
