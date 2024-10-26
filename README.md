@@ -34,7 +34,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 - [Task 1 Report](#Task1Report)
 - [Fine-tuning](#Fine-tuning)
 - [Results](#Results)
-- [Comparison Summary](#ComparisonSummary)
+- [Comparison Summary](#Comparison Summary)
 - [Challenges](#Challenges)
 - [Sample Entries of Technical Terms](#SampleEntriesofTechnicalTerms)
 - [Appendix](#Appendix)
