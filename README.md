@@ -15,6 +15,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 ![Screenshot 11](https://github.com/user-attachments/assets/8a97f209-701c-4b6b-88ac-181e51e0cc6d)
 
 
+
 Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Using SpeechT5:
 
 -Task 1 Pre-trained Model Audio using Coqui TTS: https://github.com/user-attachments/assets/2ad57d3f-ba5c-4b6f-9ac9-1d54904d2d57
@@ -41,10 +42,12 @@ This project fine-tunes a text-to-speech (TTS) model using SpeechT5, focusing on
 ### Requirements
 
 - Necessary Libraries:
-  -'gradio'
-  -'torch'
-  -'transformers'
-  -'datasets'
-  -'soundfile'
-  -'sentencepiece'
+  - `gradio`
+  - `gradio`
+  - `transformers`
+  - `datasets`
+  - `soundfile`
+  - `sentencepiece`
+  
+ 
 
