@@ -30,7 +30,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 ## Table of Contents
 - [Introduction](#introduction)
 - [Task 1 Report](#Task1Report)
-- [Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:](#[Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:)
+- [Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:](#Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:)
 - [Environment Setup](#environment-setup)
 - [Install](#Install)
 - [Dataset Preparation](#DatasetPreparation)
