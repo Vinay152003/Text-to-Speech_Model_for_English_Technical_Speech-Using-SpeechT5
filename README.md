@@ -102,5 +102,14 @@ speech = model.generate_speech(inputs["input_ids"], speaker_embeddings, vocoder=
 sf.write("speech.wav", speech.numpy(), samplerate=16000)
 ```
 
+Dataset Preparation
+• Dataset Description: A dataset was created that includes both general English
+sentences and technical jargon. Technical terms included "API," "CUDA," "TTS,"
+"OAuth," "REST," and more.
+• Data Collection: The dataset was synthesized from:
+o Interview transcripts from software engineers and data scientists.
+o Sentences pulled from technical blogs and articles.
+• Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
+balance between technical and conversational language.
  
 
