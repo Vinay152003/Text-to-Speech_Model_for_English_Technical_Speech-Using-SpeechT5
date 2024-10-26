@@ -21,7 +21,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 
 
 
-## Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Using SpeechT5:
+## Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:
 
 -Task 1 Pre-trained Model Audio using Coqui TTS: https://github.com/user-attachments/assets/2ad57d3f-ba5c-4b6f-9ac9-1d54904d2d57
 
