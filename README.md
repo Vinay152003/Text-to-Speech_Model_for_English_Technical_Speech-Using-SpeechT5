@@ -26,6 +26,7 @@ Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Us
 - [Introduction](#introduction)
 - [Environment Setup](#environment-setup)
 - [Install](#Install)
+- [Fine-tuning](#Fine-tuning)
 - [Dataset Preparation](#DatasetPreparation)
 - [Task 1 Report](#Task1Report)
 - [License](#license)
@@ -114,6 +115,7 @@ o Sentences pulled from technical blogs and articles.
 • Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
 balance between technical and conversational language.
 
+## Fine-tuning
 
 ![screenshot 22](https://github.com/user-attachments/assets/a115891a-8064-44c9-9c05-23042d1a93f4)
 
