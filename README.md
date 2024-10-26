@@ -9,8 +9,8 @@ You can access the Live Web Application at My Hugging Face Space: [https://huggi
 
 [Note: The Hugging Face space may be in a sleeping state due to inactivity. Please click the link to restart the space]
 
-Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
-
+## Task 1 Report
+-Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
 
 This repository contains an implementation of a text-to-speech (TTS) model using the SpeechT5 architecture, tailored for technical jargon. The model improves the pronunciation of technical terms by leveraging a custom pronunciation dictionary. It segments input text, generates speech using speaker embeddings for consistent voice quality, and outputs audio in WAV format. A Gradio interface is included for easy user interaction.
 
@@ -28,10 +28,10 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Task 1 Report](#Task1Report)
 - [Environment Setup](#environment-setup)
 - [Install](#Install)
 - [Dataset Preparation](#DatasetPreparation)
-- [Task 1 Report](#Task1Report)
 - [Fine-tuning](#Fine-tuning)
 - [Results](#Results)
 - [Comparison-Summary](#Comparison-Summary)
@@ -123,9 +123,6 @@ o Sentences pulled from technical blogs and articles.
 
 • Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
 balance between technical and conversational language.
-
-## Task 1 Report
--Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
 
 
 ## Fine-tuning
