@@ -30,7 +30,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 ## Table of Contents
 - [Introduction](#introduction)
 - [Task 1 Report](#Task1Report)
-- [Audio-Sample:](#Audio-Sample:)
+- [Audio-Sample](#Audio-Sample)
 - [Environment Setup](#environment-setup)
 - [Install](#Install)
 - [Dataset Preparation](#DatasetPreparation)
