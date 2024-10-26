@@ -16,6 +16,8 @@ Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Us
 
 -Task 1 Fine-tuned Model Audio Sample using SpeechT5: https://github.com/user-attachments/assets/b63f9f41-9714-4634-9786-c11c2a55aa92
 
+Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech
+![Screenshot 11](https://github.com/user-attachments/assets/8a97f209-701c-4b6b-88ac-181e51e0cc6d)
 
 
 ## Table of Contents
