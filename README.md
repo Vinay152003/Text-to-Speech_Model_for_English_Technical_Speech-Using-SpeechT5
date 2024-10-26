@@ -120,15 +120,25 @@ balance between technical and conversational language.
 #Fine-Tuning Process 
 
 •	Preprocessing: Text was processed to include phonetic representations of technical terms. 
+
 •	Training Setup: 
+
 o	The model was fine-tuned on a subset of the dataset. 
+
 o	Hyperparameters such as learning rate and batch size were adjusted to optimize model performance. 
+
 •	Training Logs: 
+
 o	Training Loss: 
+
 ▪	Initial: 1.2 
+
 ▪	Final: 0.45 o Epochs: 10 
+
 o	Learning Rate: 5e-5 
+
 Evaluation 
+
 •	Objective Metrics: 
 o	Mean Opinion Score (MOS): 
 ▪	Pre-trained Model: 3.5 
