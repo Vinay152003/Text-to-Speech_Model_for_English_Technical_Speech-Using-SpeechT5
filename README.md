@@ -4,7 +4,7 @@
 <a href="mailto:vinayhipparge15@gmail.com"><img src="https://img.shields.io/badge/Gmail--informational?style=social&logo=gmail"></a>
 <a href="https://colab.research.google.com/drive/1RvkNzRX_OgKK8u_OAy43OczupjXaBpGz?usp=sharing"><img src="https://img.shields.io/badge/Google-Colab-red"></a>
 
-### Live URL
+### Live-URL
 You can access the Live Web Application at My Hugging Face Space: [https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech](https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech)
 
 [Note: The Hugging Face space may be in a sleeping state due to inactivity. Please click the link to restart the space]
@@ -29,6 +29,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Live-URL](#Live-URL)
 - [Task-1-Report](#Task-1-Report)
 - [Audio-Sample](#Audio-Sample)
 - [Environment Setup](#environment-setup)
@@ -60,9 +61,9 @@ This project fine-tunes a text-to-speech (TTS) model using SpeechT5, focusing on
 
 ## Install
 
-You can run SpeechT5 TTS locally with the 🤗 Transformers library.
+You can run SpeechT5 TTS locally with the Transformers library.
 
-1. First install the 🤗 [Transformers library](https://github.com/huggingface/transformers), sentencepiece, soundfile and datasets(optional):
+1. First install the [Transformers library](https://github.com/huggingface/transformers), sentencepiece, soundfile and datasets(optional):
 
 ```
 pip install --upgrade pip
