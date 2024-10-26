@@ -29,6 +29,11 @@ Audio Sample of Task 1 Pre-trained Model Using Coqui TTS and Fine-Tuned Model Us
 - [Dataset Preparation](#DatasetPreparation)
 - [Task 1 Report](#Task1Report)
 - [Fine-tuning](#Fine-tuning)
+- [Results](#Results)
+- [Comparison Summary](#ComparisonSummary)
+- [Challenges](#Challenges)
+- [Sample Entries of Technical Terms](#SampleEntriesofTechnicalTerms)
+- [Appendix](#Appendix)
 - [License](#license)
 
 ## Introduction
@@ -123,15 +128,24 @@ balance between technical and conversational language.
 
 ![screenshot 22](https://github.com/user-attachments/assets/a115891a-8064-44c9-9c05-23042d1a93f4)
 
+## Results
+
 ![results](https://github.com/user-attachments/assets/96894b15-05b7-489d-8af8-6751d7db572a)
+
+## Comparison Summary 
 
 ![Comparssion summary](https://github.com/user-attachments/assets/7a7030e4-578d-4a68-ae3d-6c860240be36)
 
-![appendix](https://github.com/user-attachments/assets/5f9819e3-5ac1-476f-8ac8-a5a488f0e7a2)
+## Challenges
 
 ![Challenges](https://github.com/user-attachments/assets/a8d880dc-3271-4bc5-8e44-fc2268e9f7d9)
 
+## Sample Entries of Technical Terms
+
 ![terms sample](https://github.com/user-attachments/assets/bd6c0a48-86c5-4c4b-96bd-24b07b300299)
 
+## Appendix
+
+![appendix](https://github.com/user-attachments/assets/5f9819e3-5ac1-476f-8ac8-a5a488f0e7a2)
  
 
