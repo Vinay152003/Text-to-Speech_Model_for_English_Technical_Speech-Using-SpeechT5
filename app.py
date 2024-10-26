@@ -1,11 +1,13 @@
 import gradio as gr
 import json
 import torch
+import numpy as np
+import re
 from transformers import SpeechT5Processor, SpeechT5ForTextToSpeech, SpeechT5HifiGan
 from datasets import load_dataset
 import soundfile as sf
 
-# Step 3: Load the models and the pronunciation dictionary
+# Step 1: Load the models and the pronunciation dictionary
 processor = SpeechT5Processor.from_pretrained("microsoft/speecht5_tts")
 model = SpeechT5ForTextToSpeech.from_pretrained("microsoft/speecht5_tts")
 vocoder = SpeechT5HifiGan.from_pretrained("microsoft/speecht5_hifigan")
@@ -14,39 +16,52 @@ vocoder = SpeechT5HifiGan.from_pretrained("microsoft/speecht5_hifigan")
 with open("pronunciation_dict.json", "r") as f:
     pronunciation_dict = json.load(f)
 
-# Function to preprocess the input text
+# Function to preprocess and apply pronunciation dictionary
 def preprocess_text(text):
+    # Convert text to uppercase for uniformity in matching
+    text = text.upper()
     for term, phonetic in pronunciation_dict.items():
-        text = text.replace(term, phonetic)
+        # Replace terms with their phonetic equivalents
+        text = text.replace(term.upper(), phonetic)
     return text
 
-# Step 4: Define the TTS function
+# Step 2: Define the TTS function with sentence segmentation
 def text_to_speech(input_text):
-    # Preprocess the text
+    # Preprocess and segment text
     processed_text = preprocess_text(input_text)
+    # Split the processed text by punctuation to form shorter segments
+    segments = re.split(r'(?<=[.!?]) +', processed_text)
 
-    # Convert the processed text to model inputs
-    inputs = processor(text=processed_text, return_tensors="pt")
-
-    # Load xvector embeddings from dataset for speaker voice characteristics
+    # Load speaker embeddings for consistent voice
     embeddings_dataset = load_dataset("Matthijs/cmu-arctic-xvectors", split="validation")
     speaker_embeddings = torch.tensor(embeddings_dataset[7306]["xvector"]).unsqueeze(0)
+    
+    audio_outputs = []
 
-    # Generate speech using the model and vocoder
-    speech = model.generate_speech(inputs["input_ids"], speaker_embeddings, vocoder=vocoder)
+    # Generate speech for each text segment
+    for segment in segments:
+        if segment.strip():  # Ensure the segment is not empty
+            inputs = processor(text=segment, return_tensors="pt")
+            speech = model.generate_speech(inputs["input_ids"], speaker_embeddings, vocoder=vocoder)
+            audio_outputs.append(speech.numpy())
 
-    # Save the generated speech as a .wav file
+    # Concatenate audio from all segments
+    complete_speech = np.concatenate(audio_outputs)
+    
+    # Save the concatenated speech as a .wav file
     output_file = "speech_output.wav"
-    sf.write(output_file, speech.numpy(), samplerate=16000)
+    sf.write(output_file, complete_speech, samplerate=16000)
 
     return output_file
 
-# Step 5: Create Gradio interface
-iface = gr.Interface(fn=text_to_speech,
-                     inputs="text",
-                     outputs="audio",
-                     title="Text-to-Speech (TTS) Application",
-                     description="Enter text with technical jargon for TTS conversion.")
+# Step 3: Create Gradio interface
+iface = gr.Interface(
+    fn=text_to_speech,
+    inputs="text",
+    outputs="audio",
+    title="Fine-tuning TTS for Technical Vocabulary",
+    description="Enter text with technical jargon for TTS conversion. The model will handle abbreviations and technical terms for better pronunciation."
+)
 
-# Step 6: Launch the app
+# Step 4: Launch the app
 iface.launch(share=True)
