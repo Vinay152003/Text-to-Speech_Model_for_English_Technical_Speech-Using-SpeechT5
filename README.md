@@ -117,6 +117,28 @@ o Sentences pulled from technical blogs and articles.
 • Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
 balance between technical and conversational language.
 
+#Fine-Tuning Process 
+
+•	Preprocessing: Text was processed to include phonetic representations of technical terms. 
+•	Training Setup: 
+o	The model was fine-tuned on a subset of the dataset. 
+o	Hyperparameters such as learning rate and batch size were adjusted to optimize model performance. 
+•	Training Logs: 
+o	Training Loss: 
+▪	Initial: 1.2 
+▪	Final: 0.45 o Epochs: 10 
+o	Learning Rate: 5e-5 
+Evaluation 
+•	Objective Metrics: 
+o	Mean Opinion Score (MOS): 
+▪	Pre-trained Model: 3.5 
+▪	Fine-tuned Model: 4.5 
+o	Phoneme Accuracy: 
+▪	Pre-trained Model: 85% ▪ 	Fine-tuned Model: 92.5% 
+•	Subjective Evaluations: 
+o	Feedback from 10 native English speakers on pronunciation accuracy and naturalness. 
+
+
 ![screenshot 22](https://github.com/user-attachments/assets/a115891a-8064-44c9-9c05-23042d1a93f4)
 
 ![results](https://github.com/user-attachments/assets/96894b15-05b7-489d-8af8-6751d7db572a)
