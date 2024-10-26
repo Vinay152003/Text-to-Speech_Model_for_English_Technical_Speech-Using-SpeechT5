@@ -34,9 +34,9 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 - [Task 1 Report](#Task1Report)
 - [Fine-tuning](#Fine-tuning)
 - [Results](#Results)
-- [Comparison Summary](#Comparison Summary)
+- [Comparison-Summary](#Comparison-Summary)
 - [Challenges](#Challenges)
-- [Sample Entries of Technical Terms](#SampleEntriesofTechnicalTerms)
+- [Sample-Entries-of-Technical-Terms](#Sample-Entries-of-Technical-Terms)
 - [Appendix](#Appendix)
 - [License](#license)
 
@@ -136,7 +136,7 @@ balance between technical and conversational language.
 
 ![results](https://github.com/user-attachments/assets/96894b15-05b7-489d-8af8-6751d7db572a)
 
-## Comparison Summary 
+## Comparison-Summary 
 
 ![Comparssion summary](https://github.com/user-attachments/assets/7a7030e4-578d-4a68-ae3d-6c860240be36)
 
@@ -144,7 +144,7 @@ balance between technical and conversational language.
 
 ![Challenges](https://github.com/user-attachments/assets/a8d880dc-3271-4bc5-8e44-fc2268e9f7d9)
 
-## Sample Entries of Technical Terms
+## Sample-Entries-of-Technical-Terms
 
 ![terms sample](https://github.com/user-attachments/assets/bd6c0a48-86c5-4c4b-96bd-24b07b300299)
 
