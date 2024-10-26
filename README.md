@@ -9,10 +9,11 @@ You can access the Live Web Application at My Hugging Face Space: [https://huggi
 
 [Note: The Hugging Face space may be in a sleeping state due to inactivity. Please click the link to restart the space]
 
+This repository contains an implementation of a text-to-speech (TTS) model using the SpeechT5 architecture, tailored for technical jargon. The model improves the pronunciation of technical terms by leveraging a custom pronunciation dictionary. It segments input text, generates speech using speaker embeddings for consistent voice quality, and outputs audio in WAV format. A Gradio interface is included for easy user interaction.
+
 ## Task 1 Report
 -Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
 
-This repository contains an implementation of a text-to-speech (TTS) model using the SpeechT5 architecture, tailored for technical jargon. The model improves the pronunciation of technical terms by leveraging a custom pronunciation dictionary. It segments input text, generates speech using speaker embeddings for consistent voice quality, and outputs audio in WAV format. A Gradio interface is included for easy user interaction.
 
 Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech
 
@@ -29,6 +30,7 @@ Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for
 ## Table of Contents
 - [Introduction](#introduction)
 - [Task 1 Report](#Task1Report)
+- [Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:](#[Audio-Sample-of-Task-1-Pre-trained-Model-Using-Coqui-TTS-and-Fine-Tuned-Model-Using-SpeechT5:)
 - [Environment Setup](#environment-setup)
 - [Install](#Install)
 - [Dataset Preparation](#DatasetPreparation)
