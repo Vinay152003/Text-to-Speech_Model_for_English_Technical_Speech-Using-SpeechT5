@@ -15,7 +15,8 @@ This repository contains an implementation of a text-to-speech (TTS) model using
 -Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
 
 
-Gradio interface: https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech
+## Gradio interface: 
+https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech
 
 ![Screenshot 11](https://github.com/user-attachments/assets/8a97f209-701c-4b6b-88ac-181e51e0cc6d)
 
