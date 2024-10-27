@@ -54,7 +54,6 @@ This project fine-tunes a text-to-speech (TTS) model using SpeechT5, focusing on
 
 - Necessary Libraries:
   - `gradio`
-  - `gradio`
   - `transformers`
   - `datasets`
   - `soundfile`
