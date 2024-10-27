@@ -28,6 +28,14 @@ https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical
 
 -Task 1 Fine-tuned Model Audio Sample using SpeechT5: https://github.com/user-attachments/assets/b63f9f41-9714-4634-9786-c11c2a55aa92
 
+## Google Colab Code Link:
+
+-Pre-trained Model using Coqui TTS Colab link:
+https://colab.research.google.com/drive/1qjX0kbVOEIzh7f5OYnJgk7V4AVoAdv_9
+
+-Fine Tuned Model For English Technical Speech Using SpeechT5 Colab link:
+https://colab.research.google.com/drive/1RvkNzRX_OgKK8u_OAy43OczupjXaBpGz?usp=sharing
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Live-URL](#Live-URL)
