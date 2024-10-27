@@ -11,16 +11,17 @@ You can access the Live Web Application at My Hugging Face Space: [https://huggi
 
 This repository contains an implementation of a text-to-speech (TTS) model using the SpeechT5 architecture, tailored for technical jargon. The model improves the pronunciation of technical terms by leveraging a custom pronunciation dictionary. It segments input text, generates speech using speaker embeddings for consistent voice quality, and outputs audio in WAV format. A Gradio interface is included for easy user interaction.
 
-## Task-1-Report
--Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
-
 
 ## Gradio interface: 
 https://huggingface.co/spaces/Vinay15/Text-to-Speech_Model_for_English_Technical_Speech
 
 ![Screenshot 11](https://github.com/user-attachments/assets/8a97f209-701c-4b6b-88ac-181e51e0cc6d)
 
+## Task-1-Report
+-Task 1 Report Link: https://drive.google.com/file/d/1CfnpeUi18R7De1uhilYuhMYLS_xXjh2Q/view?usp=sharing
 
+## Final-Report
+-Final-Report Link: https://drive.google.com/file/d/1wDt3EtxSrp_HFEUA5QCGWF9W9emqswWn/view?usp=sharing
 
 ## Audio-Sample:
 
