@@ -136,6 +136,7 @@ o Sentences pulled from technical blogs and articles.
 • Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
 balance between technical and conversational language.
 
+•	Dataset Filename: The dataset is saved as pronunciation_dict.json
 
 ## Fine-tuning
 
