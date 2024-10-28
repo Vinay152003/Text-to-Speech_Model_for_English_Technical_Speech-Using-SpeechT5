@@ -133,7 +133,7 @@ o Interview transcripts from software engineers and data scientists.
 
 o Sentences pulled from technical blogs and articles.
 
-• Data Size: The dataset consisted of approximately 500 sentences, ensuring a good
+• Data Size: The dataset consisted of approximately 300-400 Technical Terms/Sentences, ensuring a good
 balance between technical and conversational language.
 
 •	Dataset Filename: The dataset is saved as pronunciation_dict.json
